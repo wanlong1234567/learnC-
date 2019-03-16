@@ -1,0 +1,4 @@
+关于Clion的一些操作
+1.对于建立多级目录操作https://blog.csdn.net/gaowu959/article/details/78484725
+2.同时在建立的目录里面加上一个CMakeLists.txt文件，但是要记得和以前的不能一样
+3.在父CMakeLists.txt中ADD_SUBDIRECTORY()增加子目录。同时reload等
