@@ -3,6 +3,7 @@
 //
 #include <iostream>
 using namespace std;
+#define day1 6;
 int main(){
     /**
      * c++不会报数组下标越界等错误
@@ -10,4 +11,5 @@ int main(){
      */
     int myNumbers [5] = {34, 56, -21, 5002, 365};
     cout << "First element at index 0: " << myNumbers [5] << endl;
+    return 0;
 }

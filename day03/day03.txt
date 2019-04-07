@@ -1,0 +1,3 @@
+可以使用运算符sizeof确定变量占用的内存量
+sizeof(variable)
+sizeof(type)

@@ -5,3 +5,57 @@
 
 在c++中#include <>这样代表包含标准的头文件
 #include ""这样代表引用其他编写的文件
+
+day01
+https://blog.csdn.net/jinxin70/article/details/85043873
+clion中无法共存多个main函数，因为无法编译
+做法：1.在CMakeLists.txt中add_executable（）增加一个
+例如括号里面写(F test.cpp)等，其中F要与另一个的不一样
+2.在debug工具里选择要执行的是哪一个。
+std::表示命名空间
+cin>>：代表输入
+cout<<:代表输出
+
+#include的作用：
+这是一个预处理编译指令。预处理器在调用编译器时运行。该指令使的预处理器将#include后面的<>中的文件
+读入程序，其效果如同将这个文件输入到源代码中的这个位置。
+
+day02
+unsigned 表示无符号类型变量，如果预期变量不会为负数的话，将应将其类型申名为无符号的.
+不同于相应的有符号类型，无符号整型变量不能包含符号信息，因此，他们的的最大值为相应有符号类型的两部
+
+类型     值
+bool      true/false
+char       256 个字符值
+unsigned short int 0～65535
+short int –32768～32767
+unsigned long int 0～4294967295
+long int –2147483648～2147483647
+int (16 位) –32768～32767
+int (32 位) –2147483648～2147483647
+unsigned int（16 位） 0～65535
+unsigned int（32 位） 0～4294967295
+float        1.2e–38～3.4e38
+double       2.2e–308～1.8e308
+
+#define定义常量，这个是一个预处理宏，(但是现在已经摒弃了)
+int myNumbers[5]= { };//这代表数组中的元素都为0，(编译器给数值类型提供的默认值)
+
+constexpr可以将常量声明为函数
+
+使用c++11和其更高的版本。可不显式地指定变量的类型，而使用关键字auto
+
+const：代表常量的意思
+     如果变量的值不变就设置为常量
+     有点像Java里的static final
+
+
+ 编译器将枚举量转换为整数，
+ 每个枚举量都比前一个大1。
+ 也可以指定值，如果没有指定值的话，
+ 编译器认为起始值为0，也既North的值为0
+
+
+c++不会报数组下标越界等错误，https://blog.csdn.net/hanchengxi/article/details/8509583
+
+day03

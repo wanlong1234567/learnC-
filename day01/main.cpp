@@ -7,7 +7,9 @@
  *       2.在debug工具里选择要执行的是哪一个。
  *       std::表示命名空间
  */
+#define day 23;
 int main() {
     std::cout << "Hello, World!" << std::endl;
+   std::cout << day;
     return 0;
 }
